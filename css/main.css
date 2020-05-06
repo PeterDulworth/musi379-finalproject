@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  --bgColor: blue;
+  overscroll-behavior: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 40px);
+  padding: 20px;
+  /* border: 1px solid red; */
+}
+
+#p5canvas {
+}
+
+.btn button {
+  padding: 10px 20px;
+  border: 1px solid black;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn button:hover {
+  opacity: 0.5;
+}
+
+.desc {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.desc > * {
+  /* border: 1px solid red; */
+  padding: 20px;
+  flex-basis: 400px;
+  flex-grow: 1;
+}
+
+/* .interact {
+    display: flex;
+} */
+
+.variations-link {
+  /* background: teal; */
+  /* color: white; */
+  /* text-decoration: none; */
+}
+
+.variations-link:hover {
+  background: pink;
+  color: white;
+}
